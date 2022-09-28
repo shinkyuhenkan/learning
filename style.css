@@ -1,0 +1,91 @@
+# learnen
+
+body{
+     background: rgb(2,0,36);
+     background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(0,212,255,0.33657212885154064) 0%, rgba(253,196,255,1) 100%);
+     font-family: 'Noto Serif JP', serif;
+     
+    }
+    #label{
+        display: block;
+        text-align: center;
+        font-size: 22px;
+    }
+    #entertext {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        height: 200px;
+        width: 500px;
+        font-size: 22px;
+        font-family: 'Noto Serif JP', serif;
+        
+    }
+    #henkanbutton{
+        margin-bottom: 20px;
+        margin-left: 310px;
+        padding: 0rem 1rem;
+        font-size: 20px;
+        cursor: pointer;
+        font-family: 'Kiwi Maru', serif;
+
+    }
+    #clearbutton{
+        padding: 0rem 1rem;
+        font-size: 20px;
+        cursor: pointer;
+        font-family: 'Kiwi Maru', serif;
+        
+       
+    }
+    #result{
+        display: block;
+        height: 200px;
+        width: 500px;
+        margin-left: auto;
+        margin-right: auto;
+        font-size: 30px;
+        font-family: 'Noto Serif JP', serif;
+    }
+     .button {
+        text-decoration: none;
+        color: rgba(0, 0, 0, 0.8);
+        background: rgb(206, 143, 250);
+        
+        border-radius: 4px;
+        border: none;
+        font-weight: normal;
+        text-transform: uppercase;
+        transition: all 0.2s ease-in-out;
+      }
+      .glow-button:hover {
+        color: rgba(255, 255, 255, 1);
+        box-shadow: 0 5px 15px rgba(145, 92, 182, .4);
+      }
+    
+      .left {
+        height: 100%;
+        
+        width: 15%;
+        
+      }
+
+      .right {
+        
+        height: 100%;
+        float: right;
+        
+        width: 15%;
+        
+
+      }
+    .center{
+        
+        height: 100%;
+        width: 65%;
+        
+    }
+     .left, .center {
+        float: left;
+     }
+    
